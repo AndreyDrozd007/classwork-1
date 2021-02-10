@@ -1,0 +1,101 @@
+.wrapper {
+    position: relative;
+    height: 1000px;
+    width: 1000px;
+
+    margin: 0 auto;
+
+    background-color: aqua;
+}
+
+.square-small {
+    position: absolute;
+    bottom: 40%;
+    right: 48%;
+    z-index: 200;
+
+    width: 10%; 
+    height: 10%;
+    
+    background: #c4fa02;
+    border-radius: 10%;
+}
+.square-big {
+    position: absolute;
+    bottom: 35%;
+    right: 43%;
+    z-index: 100;
+    
+    width: 20%; 
+    height: 20%;
+
+    background: #0804ee;
+    
+
+}
+.square-big:hover {
+    background-color:#e708d5;
+    z-index: 300;
+}
+.circle-right {
+    position: absolute;
+    top: 40%;
+    right: 38%;
+
+    width: 10%; 
+    height: 10%;
+
+    background: red;
+    border-radius: 50%;
+}
+.circle-right:hover {
+    background-color: royalblue;
+    z-index: 600;
+}
+.circle-left {
+    position: absolute;
+    top: 40%;
+    right: 58%;
+    
+    width: 10%; 
+    height: 10%;
+    
+    background: red;
+    border-radius: 50%;
+}
+.circle-left:hover {
+    background-color: rgb(75, 224, 6);
+    z-index: 600;
+}
+.circle-right-bottom {
+    position: absolute;
+    bottom: 30%;
+    right: 38%;
+    
+    width: 10%; 
+    height: 10%;
+
+    background: red;
+    border-radius: 50%;
+}
+.circle-right-bottom:hover {
+    background-color: rgb(219, 10, 230);
+    z-index: 600;
+}
+.circle-left-bottom {
+    position: absolute;
+    bottom: 30%;
+    right: 58%;
+
+
+    width: 10%; 
+    height: 10%;
+
+    background: red;
+    border-radius: 50%;
+}
+.circle-left-bottom:hover {
+    z-index: 600;
+    
+    background-color: rgb(219, 162, 6);
+}
